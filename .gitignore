@@ -1,0 +1,35 @@
+# Dart/Flutter tooling
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# Build
+build/
+
+# Pub cache
+.pub-cache/
+.pub/
+
+# Lock file — omit for libraries, commit for apps
+pubspec.lock
+
+# Coverage
+coverage/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Generated files
+*.g.dart
+*.freezed.dart
