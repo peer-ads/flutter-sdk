@@ -1,0 +1,94 @@
+name: Bug Report
+description: Report a bug in the PeerAds Flutter SDK
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please fill in as much detail as possible.
+        **Do not report security vulnerabilities here** — see [SECURITY.md](../../SECURITY.md).
+
+  - type: input
+    id: sdk-version
+    attributes:
+      label: SDK Version
+      description: Version of the peerads Flutter package
+      placeholder: e.g. 0.1.0
+    validations:
+      required: true
+
+  - type: input
+    id: flutter-version
+    attributes:
+      label: Flutter Version
+      placeholder: e.g. 3.19.0 (run `flutter --version`)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - iOS
+        - Android
+        - Both
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: OS Version
+      placeholder: e.g. iOS 17.2 / Android 13 (API 33)
+    validations:
+      required: false
+
+  - type: dropdown
+    id: ad-format
+    attributes:
+      label: Ad Format
+      options:
+        - Banner
+        - Interstitial
+        - Rewarded
+        - All / Not format-specific
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behaviour
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behaviour
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Flutter Logs / Stack Trace
+      description: Output of `flutter run --verbose` or `flutter logs`
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+    validations:
+      required: false

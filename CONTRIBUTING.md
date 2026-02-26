@@ -8,7 +8,7 @@ This project follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.
 
 ## Reporting Bugs
 
-Before opening an issue, search [existing issues](https://github.com/peerads/peerads-flutter/issues) to avoid duplicates. When filing a bug report please include:
+Before opening an issue, search [existing issues](https://github.com/peer-ads/flutter-sdk/issues) to avoid duplicates. When filing a bug report please include:
 
 - SDK version (from `pubspec.lock`)
 - Flutter and Dart versions (`flutter --version`)
@@ -19,12 +19,12 @@ Before opening an issue, search [existing issues](https://github.com/peerads/pee
 
 ## Suggesting Features
 
-Open a [GitHub Discussion](https://github.com/peerads/peerads-flutter/discussions) before filing a feature request.
+Open a [GitHub Discussion](https://github.com/peer-ads/flutter-sdk/discussions) before filing a feature request.
 
 ## Development Setup
 
 ```bash
-git clone https://github.com/peerads/peerads-flutter.git
+git clone https://github.com/peer-ads/flutter-sdk.git
 cd peerads-flutter
 flutter pub get
 flutter test
